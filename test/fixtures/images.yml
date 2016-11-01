@@ -1,0 +1,36 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  article_id: 1
+  headline: TestHeadline1
+  order: 2
+  url: TestURL1
+  likes: 123
+
+two:
+  article_id: 1
+  headline: MyString
+  order: 4
+  url: MyString
+  likes: 12342
+
+three:
+  article_id: 1
+  headline: MyString
+  order: 6
+  url: MyString
+  likes: 12342
+
+four:
+  article_id: 1
+  headline: MyString
+  order: 8
+  url: MyString
+  likes: 12342
+
+five:
+  article_id: 1
+  headline: MyString
+  order: 10
+  url: MyString
+  likes: 12342

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Article:</strong>
+  <%= @text.article_id %>
+</p>
+
+<p>
+  <strong>Headline:</strong>
+  <%= @text.headline %>
+</p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @text.order %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @text.text %>
+</p>
+
+<p>
+  <strong>Likes:</strong>
+  <%= @text.likes %>
+</p>
+
+<%= link_to 'Edit', edit_text_path(@text) %> |
+<%= link_to 'Back', texts_path %>

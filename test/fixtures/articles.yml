@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: Title1
+  post_time: 2016-11-01 10:30:39
+  likes: 12345
+
+two:
+  title: Title2
+  post_time: 2016-11-01 20:30:39
+  likes: 23456
