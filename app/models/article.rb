@@ -3,16 +3,13 @@ class Article < ApplicationRecord
 	has_many :images
 
 	def content
-		content = self.texts + self.images
+		content = self.texts ? self.texts : []
+		content += self.images if self.images 
 		content.sort_by(&:order) 
 	end
 
 	def posted
-		if self.post_time
-			self.post_time < Time.now
-		else 
-			false
-		end
+		self.post_time ? self.post_time < Time.now : false
 	end
 
 	def increase_like
